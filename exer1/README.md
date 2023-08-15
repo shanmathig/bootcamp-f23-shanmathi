@@ -5,7 +5,7 @@ In this exercise, we will get bootcampers setup with the necessary tools for web
 
 ## Submission
 Collect points for this exercise by sending your GitHub username in the `gt-bootcamp-dev` Slack channel. 
-- **Due Date**: TBD
+- **Due Date**: 09-07-2023
 
 ## Instructions
 
