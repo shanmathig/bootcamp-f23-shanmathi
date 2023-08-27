@@ -23,3 +23,4 @@ This exercise involves setting up your GitHub repo in the BoG Dev Bootcamp Organ
 11. Stage, commit, and push these changes to GitHub
 
 **Word of advice for future exercises** -> Before starting an exercise, make sure your repo is up-to-date with the main repo (we will be updating it with new exercises regularly!). Check by clicking **Sync Fork** and **Update branch** if needed. Then pull the changes to your local repo with `git pull origin main`.
+hi
