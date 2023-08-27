@@ -1,7 +1,7 @@
 # Exercise 1 - Dev Environment Setup
 
 ## Description
-In this exercise, you will instlal and set up all the necessary tools for web development. This exercise is **mandatory** as it will be a basis for all that we do in this bootcamp. 
+In this exercise, you will install and set up all the necessary tools for web development. This exercise is **mandatory** as it will be a basis for all that we do in this bootcamp. 
 
 ## Submission
 Collect points for this exercise by sending your GitHub username in the `gt-bootcamp-dev` Slack channel. 
