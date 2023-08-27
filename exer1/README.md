@@ -40,7 +40,7 @@ A GitHub account will allow you to be added to the GitHub organization, so you c
 Node is a version of Javascript that can run on the server. We will use this in both frontend and backend development. Installing Node also installs NPM (Node Package Manager) for us. We will talk more about these two things later. 
 1. Download and open the LTS release of Node from https://nodejs.org/en/
 2. In Terminal or GitBash, check if node is installed by entering the command `node -v`
-	- if the output looks something like `v16.11.0`, it has been successfully installed
+	- if the output looks something like `v18.17.1`, it has been successfully installed
 
 ### 4. Install Visual Studio Code
 Visual Studio Code is the code editor of choice for web developers since it has lots of helpful extensions and autocomplete features. 
