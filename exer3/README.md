@@ -1,5 +1,4 @@
 # Exercise 3 - Frontend Practice
-Credits: Zini Chakraborty and Nathan Gong
 
 ## Description
 In this exercise, bootcampers will familiarize themselves with flexbox, padding, and margins.
