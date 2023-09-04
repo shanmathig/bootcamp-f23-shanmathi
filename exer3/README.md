@@ -1,4 +1,5 @@
 # Exercise 3 - Frontend Practice
+Credits: Zini Chakraborty and Nathan Gong
 
 ## Description
 In this exercise, bootcampers will familiarize themselves with flexbox, padding, and margins.
@@ -20,9 +21,19 @@ Like the Figma design, your webpage will consist of two pages, both (hopefully) 
 - Use flexbox, margins, and other CSS styles to position your page elements
 - Include some color
 - Include at least one image
+- Your project must include all of the design elements contained within the Figma design (e.g. a banner at the top, a vertically and horizontally centered search bar, a footer, etc.)
 - You must make **at least 8 commits** for this webpage (this is to get you in the habit of committing each feature incrementally)
 - (Optional) Style the webpage with your personal touch! The Figma design provided is solely meant to serve as a barebones template.
 
 **Submission Instructions**
 
 By now, you should have a forked version of this repository locally cloned on your computer. If not, please complete [Exercise 2](https://github.com/BoG-Dev-Bootcamp-F23/bootcamp-f23/tree/main/exer2) before you begin. Start working on the project by navigating to your local repository and opening the `exer3` folder. This is where you'll create your HTML/CSS files for the webpage. Make sure to periodically commit your changes to meet the 8 commits requirement. Once you're done, commit _and push_ your changes so that they will be visible on Github.
+
+
+**Figma Page 1:**
+
+<img width="500" alt="Screenshot 2023-09-04 at 6 07 57 PM" src="https://github.com/BoG-Dev-Bootcamp-F23/bootcamp-f23/assets/8647920/a43a96a4-9ab3-4aa5-9f1c-4c75fb62f556">
+
+**Figma Page 2:**
+
+<img width="500" alt="Screenshot 2023-09-04 at 6 08 28 PM" src="https://github.com/BoG-Dev-Bootcamp-F23/bootcamp-f23/assets/8647920/075d3fba-b5f3-4475-8dd2-ba42df3758a9">
