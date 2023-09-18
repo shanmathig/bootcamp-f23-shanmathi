@@ -54,12 +54,17 @@ h1{
     font-family: sans-serif;
     padding: 20px;
     text-align:center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+
 }
 h2{
     color: #ff7574;
     font-weight: bolder;
     font-family: sans-serif;
     padding: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     text-align:center;
 
 }
@@ -105,6 +110,7 @@ h2{
     color: #f38d6a;
     border-color:#f38d6a;
     border-radius: 20px;
+    margin-bottom: 0px;
     transition-delay: 1s;
     font-family: sans-serif;
 }
