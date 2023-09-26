@@ -1,4 +1,4 @@
-const apiKey = "29daf5cec96c4ebbe13b4d3b56ad86b2";
+const apiKey = "YOUR API KEY HERE";
 const city = "Atlanta";
 const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
