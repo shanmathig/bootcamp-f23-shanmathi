@@ -10,10 +10,8 @@ import getRealTimeRailCoordinates from "./getRail.js";
  * will process the data to fit your needs
  */
 const railArray = await getRealTimeRailCoordinates();
-
 /**
  * Task 1: What are the keys in each element in railArray?
- *
  * We want to roughly know what we are working with, so we need to know all
  * the keys in the FIRST element of railArray (there's no need to check the
  * keys of other elements, as they'll all be the same)
@@ -36,7 +34,13 @@ const railArray = await getRealTimeRailCoordinates();
  * DO NOT MODIFY railArray! You'll need it for later
  */
 function getKeysToArr(arrivals) {
-  // TODO
+    const keys = [];
+    if(arrivals.length > 0){
+      for(let key in arrivals[0]){
+        keys.push(key);
+      }
+    }
+    return keys;
 }
 
 /**
@@ -52,7 +56,13 @@ function getKeysToArr(arrivals) {
  * DO NOT MODIFY railArray! You'll need it for later
  */
 function getTrainComingIn1Minute(arrivals) {
-  // TODO
+  const coming = [];
+  arrivals.forEach((arrival) => {
+    if(arrival.WAITING_TIME === '1 min') {
+      coming.push(arrival);
+    }
+  });
+  return coming;
 }
 
 /**
@@ -84,7 +94,9 @@ function getTrainComingIn1Minute(arrivals) {
  *
  */
 function updateLineColor(arrivals) {
-  // TODO
+  let updated = arrivals.filter((arrival) => arrival.LINE === 'BLUE').map((arrival) => ({...arrival}));
+  updated.forEach((arrival => arrival.LINE = 'PINK'));
+  return updated;
 }
 
 console.log(getKeysToArr(railArray));
