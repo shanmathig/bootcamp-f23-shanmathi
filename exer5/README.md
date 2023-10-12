@@ -26,7 +26,8 @@ export default function LinesPage() {
   return (
     <div>
       // YOUR JSX CODE
-      <LineInfo color={currColor} data={data} />
+      <NavBar color={currColor} data={stationData} />
+      <LineInfo color={currColor} data={trainData} />
       // YOUR JSX CODE
     </div>
   );
