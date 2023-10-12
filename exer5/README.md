@@ -17,17 +17,20 @@ To create your React app go to the exer5 folder in command *line* or terminal an
 
 You can ignore all the template files in `src` except `index.js`, `App.js`, and `App.css`.
 
-To get started, create a `pages`, `server`, and `components` folder within `src`. In the `pages` folder, create a page component named `LinesPage.js`, this page will display the entire interface. Also, create a component called `LineInfo.js`. This component should have a prop specifying the line color (i.e. blue, gold, red, or green), and would contain the interface for all trains in the given line. The current line that's being displayed should be stored as a state in the `LinesPage` component. Here's some barebones code for some idea of what the structure should look like:
+To get started, create a `pages`, `server`, and `components` folder within `src`. In the `pages` folder, create a page component named `LinesPage.js`, this page will display the entire interface. Also, create a component called `TrainList.js`. This component should have a prop specifying the line color (i.e. blue, gold, red, or green), and would contain the interface for all trains in the given line. The current line that's being displayed should be stored as a state in the `LinesPage` component. Here's some barebones code for some idea of what the structure should look like:
 ```
+// get static data
+import stationData from '../server/station-data';
+import trainData from '../server/train-data';
+
 export default function LinesPage() {
   // initialize some currColor state
-  // get static data
 
   return (
     <div>
       // YOUR JSX CODE
       <NavBar color={currColor} data={stationData} />
-      <LineInfo color={currColor} data={trainData} />
+      <TrainList color={currColor} data={trainData} />
       // YOUR JSX CODE
     </div>
   );
@@ -52,7 +55,7 @@ Lastly, we want four nonfunctional buttons to be displayed titled 'Arriving', 'S
 **Requirements:**
 - In `src` create three folders: `pages`, `server`, and `components`.
 - Call the static `train-data.js` file to get train data filtered by line.
-- Create a `Train.js` component inside the `components` folder that displays the information for each train, and a `LineInfo.js` component that displays the train data for a specified line
+- Create a `Train.js` component inside the `components` folder that displays the information for each train, and a `TrainList.js` component that displays the train data for a specified line
 - In `App.js`, display the `LinesPage.js` page
 - For each line's page, display each train's data by feeding each entry in the filtered array into the `Train.js` component as props.
 - Include a nonfunctional navbar that calls the `station-data.js` file for each line to get the specific stations.
