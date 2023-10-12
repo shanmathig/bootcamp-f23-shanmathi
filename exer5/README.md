@@ -44,7 +44,7 @@ Display each of the train components for the specified line (first make sure to 
 
 Once you have reached this step, we will construct UI that will be used in Exercise 6 (this is still a required part of Exercise 5). We ask that you create a non-functional navbar somewhere on the screen. (In Exercise 6 we will display information for each train line so the dropdown for each train line page will change).
 
-We can create a `Navbar.js` file in `components`. This will contain an exportable navbar display component, which we can import into `LinesPage.js`. The `station-data.js` file holds the stations for each line as an object with arrays associated with lines. The navbar component will be displayed with the props for their specific stations, called from `station-data.js`. Reference the Figma design at the bottom to see what this looks like (it's the component with "select your starting station).
+We can create a `Navbar.js` file in `components`. This will contain an exportable navbar display component, which we can import into `LinesPage.js`. The `station-data.js` file holds the stations for each line as an object with arrays associated with lines. The navbar component will be displayed with the props for their specific stations, called from `station-data.js`. Reference the Figma design at the bottom to see what this looks like (it's the component with "select your starting station").
 
 Lastly, we want four nonfunctional buttons to be displayed titled 'Arriving', 'Scheduled', 'Northbound', and 'Southbound' on each of the pages. For the green and blue lines, use 'Eastbound' and 'Westbound' instead. These buttons will become operational in Exercise 6.
 
