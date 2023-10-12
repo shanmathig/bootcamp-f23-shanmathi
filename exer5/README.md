@@ -5,7 +5,7 @@ In this exercise, bootcampers will familiarize themselves with UI/JSX, functiona
 
 ## Submission
 See the submission instructions down below. 
-- **Due Date**: 10-12-2023
+- **Due Date**: 10-17-2023
 
 ## Instructions
 *HIGHLY RECOMMEND READING THROUGH THE WHOLE README BEFORE BEGINNING*
@@ -15,27 +15,25 @@ Simple instructions: We are creating a simple Marta Interface for each *line* on
 Congrats on making it to your first bootcamp React project!
 To create your React app go to the exer5 folder in command *line* or terminal and run `npx create-react-app marta-interface`. After it finishes installing dependencies, go ahead and run `cd marta-interface`; you are now in your React app!
 
-To run your code locally, run `npm start` in command line or terminal in that folder. Right now you should be seeing a bunch of stuff that React has naturally displayed whenever you initialize a React app. You can ignore everything they have given except `index.js` and `App.js`. The `index.js` file is what you are actually seeing when you run `npm start`, and there is only an App component being displayed. The code for what the App component displays is in `App.js`. In `App.js` you will display your frontend code.
+You can ignore all the template files in `src` except `index.js`, `App.js`, and `App.css`.
 
-To get started, create a `pages`, `server`, and `components` folder within `src`. Move the `components` folder into `pages`. In the `pages` folder, create four pages titled `red.js`, `gold.js`, `blue.js`, and `green.js` for each line. Each of these pages should have all the code inside a single function that returns everything inside a <div></div>, and can be exported, so we are treating them as components, such as below:
+To get started, create a `pages`, `server`, and `components` folder within `src`. In the `pages` folder, create four pages titled `red.js`, `gold.js`, `blue.js`, and `green.js` for each line. Each of these pages should have all the code inside a single function that returns JSX, and can be exported, so we are treating them as components, such as below:
 
 ```
-function Gold() {
+export default function Gold() {
   return (
     <div>
-      //YOUR CODE
+      // YOUR JSX CODE
     </div>
   );
 }
-
-export default Gold;
 ```
 
-Since we have not learned how to use routers yet, import each page into `App.js` and just display each one sequentially below each other.
+Since we haven't learned how to use routers yet, import each page into `App.js` and display each one sequentially below each other.
 
-Next, drag the `train-data.js` and `station-data.js` file that is in exer 5 into the `server` folder. We are using static data for now because updating what appears on screen in React using remote data requires using hooks which we will learn after this exercise has been released. The data is formatted identically to the MARTA API's data (because it was copied from there), so it is organized in a way that when called, it returns an object that holds an array of train objects which consist of each train's data, so `{[Train1's data, Train2's data, Train3's data , ...]}`. Since each line has its own page, the called data should be filtered to only return info for trains that are part of the specific line. For example, for the gold line we only want an array of gold trains (i.e. only include objects with the property `"LINE":"GOLD"`).
+Next, move the `train-data.js` and `station-data.js` file in `exer5` into the `server` folder. It will provide static data that we'll display in our React frontend (we'll fetch the data from an API in exercise 6). The data is formatted identically to the MARTA API's data: consisting of an object that containing an array of train objects, i.e. `{[Train1's data, Train2's data, Train3's data , ...]}`. Since each line has its own page, the called data should be filtered to only return info for trains that are part of the specific line. For example, for the gold line we only want an array of gold trains (i.e. only include objects with the property `"LINE":"GOLD"`).
 
-In the components folder, create a `Train.js` file. In this file you can create the design for an exportable Train component that takes in the data for one train and returns the display for it. To display whether or not a train is *On Time* or *Delayed* check if the DELAY is T0S (if it is, it is on time, and if not, we consider it delayed). Follow the Figma page below for an aesthetic design of a train component or come up with your own design including the same information!
+In the components folder, create a `Train.js` file. In this file you can create the design for an exportable Train component that takes in the data for one train and returns the display for it. To display whether or not a train is *On Time* or *Delayed* check if `DELAY === "T0S"` (if it is, it is on time, and if not, we consider it delayed). Follow the Figma page below for an aesthetic design of a train component or come up with your own design including the same information!
 
 For each *line* page, display each of the train components for their line (first make sure to import the Train component into the file). *Hint: You do not need to display each component manually as the number of trains in a line or subject to change.* Instead you can use the `map` and `spread` functions you learned in Exercise 4 to take in the props at each index and display a component for each train's props.
 
