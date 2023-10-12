@@ -54,11 +54,13 @@ Lastly, we want four nonfunctional buttons to be displayed titled 'Arriving', 'S
 - Include a nonfunctional navbar that calls the `station-data.js` file for each line to get the specific stations.
 - Add four nonfunctional buttons titled 'Arriving', 'Scheduled', and 'Northbound'/'Southbound' or  'Eastbound'/'Westbound' depending on the line for each page.
 
-**Figma Pages:**
-Sample Gold Page:
+## Figma Pages:
+
+*Sample Gold Page*
 
 <img width="480" alt="Screenshot 2023-10-02 at 4 01 14 PM" src="https://github.com/BoG-Dev-Bootcamp-F23/bootcamp-f23/assets/113480497/10278e35-c7a6-4480-94ce-9a06a39d6ecd">
-Sample Train Component:
+
+*Sample Train Component*
 
 <img width="339" alt="Screenshot 2023-10-02 at 4 01 22 PM" src="https://github.com/BoG-Dev-Bootcamp-F23/bootcamp-f23/assets/113480497/07c16887-f509-41e0-bbf2-759946143c91">
 
