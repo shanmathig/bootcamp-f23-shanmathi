@@ -45,7 +45,7 @@ As a fun bonus, once the rest of the code displays successfully, you can incorpo
 - Make the four buttons from Exercise 5 functional so that the trains are filtered by one or more buttons at a time
 - Bonus: Conditional rendering for when there are no trains to display
 
-##Actual Display Examples
+## Display Examples
 
 *Gold*
 
