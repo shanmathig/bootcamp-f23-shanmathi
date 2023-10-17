@@ -59,9 +59,10 @@ button{
   margin-right: 20px;
   border-radius: 10px;
   padding: 10px;
-  width: 100px;
-  height: fit-content;
+  width: 180px;
+  height: 50px;
   margin-bottom: 40px;
+  font-size: 20px;
 }
 
 .gold-label{
@@ -78,6 +79,7 @@ button{
   display: flex;
   align-items: flex-start;
   margin-right: 10px;
+  
 }
 .row1 {
 width: 100%;
@@ -112,12 +114,14 @@ justify-content: flex-start; /* Align to the left */
 .info{
   display:flex;
   color: black;
+  white-space: nowrap;
 }
 .row-2{
   display: flex;
 }
 .ontime{
   color: green;
+  font-size: 20px;
 }
 .heading{
   text-align: center;
@@ -138,6 +142,13 @@ p{
   font-size: 15px;
 
 }
+.content h1{
+  text-align: center;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 80px;
+  font-weight: bolder;
+  margin: 0px;
+}
 
 .navbar-container{
   margin-right: 40px;
@@ -147,7 +158,6 @@ p{
   margin-bottom: 20px;
   width: 350px;
   margin-top: 90px;
-  max-height: max-content;
   position: relative;
 
 
@@ -156,13 +166,13 @@ p{
   flex: 2;
   display: flex; /* Use flexbox to arrange elements horizontally */
   padding: 10px;
-  height: 100vh; /* Set the height to 100% of the viewport height */
-  overflow:scroll;
+  height: 100%; /* Set the height to 100% of the viewport height */
+
 }
 
 .navbar ul {
   list-style: none; /* Remove bullet points */
-  padding: 0;
+  padding: 20px;
 
 }
 
@@ -171,6 +181,8 @@ p{
   text-align: left;
   text-indent: 20px;
   margin-bottom: 10px;
+  padding: 15px;
+
 }
 
 .navbar li:after {
@@ -186,14 +198,15 @@ p{
 
 .train1 {
   display: flex;
-  align-items: center; /* Center vertically */
+  align-items: flex-start; /* Center vertically */
   justify-content: flex-start; /* Align to the left */
 }
 .train {
   display: flex;
   font-weight: bold;
   flex-direction: row;
-  align-items: flex-start; /* Align the content to the top */
+  justify-content: flex-start; /* Align to the left */
+  align-items: center; /* Align the content to the top */
   margin-bottom: 0px; 
 }
 
@@ -210,4 +223,17 @@ p{
   flex-direction: row;
   align-items: center;
   margin-right: 10px;
+}
+.gold-delayed {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 10px;
+}
+.gold{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 10px;
+  
 }

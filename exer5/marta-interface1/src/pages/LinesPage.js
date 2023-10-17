@@ -27,7 +27,7 @@ import React, { useState } from 'react';
 
 const LinesPage = () => {
     // You can add specific data for the Gold line if needed
-    const [currColor, setCurrColor] = useState("GOLD");
+    const [currColor, setCurrColor] = useState("GREEN");
     return (
         <div className="linespage">
         <div className="navbar-container">
