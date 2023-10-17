@@ -1,0 +1,167 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+
+}
+/* Default style for buttons */
+.normal-button {
+  background-color: white;
+  color: black;
+}
+
+/* Style for selected buttons */
+.selected-button {
+  background-color: black;
+  color: white;
+}
+button{
+  background-color: white;
+  color: black;
+  margin-right: 20px;
+  border-radius: 10px;
+  padding: 10px;
+  width: 100px;
+  height: fit-content;
+}
+
+.gold-label{
+  background-color: rgb(209, 168, 35);
+  color: white;
+  width: fit-content;
+  border-radius: 10px;
+  padding: 10px;
+  margin-right: 20px;
+}
+.big-letter {
+  font-size: 2em;
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+.row1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items:flex-start;
+}
+
+.wait {
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  color: green;
+}
+
+.info{
+  display:flex;
+  color: black;
+  margin-bottom: 0;
+}
+.row-2{
+  display: flex;
+}
+.ontime{
+  color: green;
+}
+.delayed{
+  color: red;
+}
+h3{
+  color: black;
+}
+.App{
+  display: flex;
+  align-items: flex-start;
+  width: 100%
+}
+.navbar{
+  flex: 1;
+  margin-right: 40px;
+  background-color: #282c34;
+  color: white;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  height: 100vh;
+
+}
+.linespage{
+  flex: 2;
+  padding: 10px;
+  height: 100vh; /* Set the height to 100% of the viewport height */
+  overflow:scroll;
+}
+
+.navbar ul {
+  list-style: none; /* Remove bullet points */
+  padding: 0;
+
+}
+
+
+.navbar li {
+  position: relative;
+  text-align: left;
+  text-indent: 20px;
+  margin-bottom: 10px;
+}
+
+.navbar li:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: calc(100% - 20px);
+  height: 1px;
+  background-color: #fff;
+
+}
+
+
+.train {
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+}
+.gold-ontime {
+  display: flex;
+  flex-direction: row;
+  align-items:flex-start;
+  margin-right: 10px;
+}
