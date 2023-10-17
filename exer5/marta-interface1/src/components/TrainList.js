@@ -34,11 +34,11 @@ export default function TrainList(props) {
             return (
               <div key={index}>
                 <Train trainData={train} />
-                {index < arrivals.length - 1 && <hr />} {/* Add this line */}
+                {index < arrivals.length - 1 && <hr />} 
               </div>
             );
           }
-          return null; // Skip other lines
+          return null; 
         })}
     </div>
   )
