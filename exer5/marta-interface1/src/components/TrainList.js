@@ -1,28 +1,45 @@
-import React from 'react';
-import Train from './Train';
+import Train from "./Train";
+export default function TrainList(props) {
+  const {userLine, trainData} = props;
+  const arrivals = trainData["RailArrivals"]
 
-const TrainList = ({ data }) => {
-  if (!data || !data.RailArrivals) {
-    return <div>Data not available.</div>;
+  function direction() {
+    if (userLine === "GOLD" | userLine === "RED") {
+      return (
+        <div>
+            <button style={{ backgroundColor: 'black', color: 'white', borderColor: 'black',}}>Arriving</button>
+            <button>Scheduled</button>
+            <button>Northbound</button>
+            <button>Southbound</button>
+        </div>
+      )
+    }
+    return (
+      <div>
+          <button style={{ backgroundColor: 'black', color: 'white', borderColor: 'black',}}>Arriving</button>
+          <button>Scheduled</button>
+          <button>Eastbound</button>
+          <button>Westbound</button>
+      </div>
+    )
   }
 
-  // Filter the data to get only the trains on the Gold line
-  const goldLineTrains = data.RailArrivals.filter((train) => train.LINE === 'GOLD');
-
   return (
-    <div className="train-list">
-      <h2>GOLD</h2>
-      <div className="trains">
-        {goldLineTrains.map((train, index) => (
-          <div key={index}>
-            <Train trainData={train} />
-            {index < goldLineTrains.length - 1 && <hr />}
-          </div>
-        ))}
+    <div className="trainList">
+      <div>
+        {direction()}
       </div>
+        {arrivals.map((train, index) => {
+          if (train["LINE"] === userLine) {
+            return (
+              <div key={index}>
+                <Train trainData={train} />
+                {index < arrivals.length - 1 && <hr />} {/* Add this line */}
+              </div>
+            );
+          }
+          return null; // Skip other lines
+        })}
     </div>
-  );
-};
-
-export default TrainList;
-
+  )
+}

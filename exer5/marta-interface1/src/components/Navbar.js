@@ -1,26 +1,18 @@
 import React from 'react';
 
-const Navbar = ({ line }) => {
-  // Get the starting stations for the Gold line
-  const goldStations = [
-    'All stations',
-    'Chamblee',
-    'Brookhaven',
-    'Midtown',
-    'North Avenue',
-    'Airport',
-  ];
+export default function Navbar(props) {
+    // Get the starting stations for the Gold line
+    const {currColor, stationData} = props;
+    const stations = ["Doraville", "Chamblee", "Brookhaven", "Lenox", "Lindbergh Center", "Arts Center", "Midtown", "North Avenue", "Civic Center", "Peachtree Center", "Five Points", "Garnett", "West End", "Oakland City", "Lakewood/Ft. McPherson", "East Point", "College Park", "Airport"]
 
   return (
     <div className="navbar">
       <h2>Select your starting station</h2>
       <ul>
-        {goldStations.map((station, index) => (
+        {stations.map((station, index) => (
           <li key={index}>{station}</li>
         ))}
       </ul>
     </div>
   );
 };
-
-export default Navbar;

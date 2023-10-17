@@ -37,17 +37,22 @@
   }
 
 }
-/* Default style for buttons */
-.normal-button {
-  background-color: white;
-  color: black;
+/* App.css or your custom CSS file */
+
+.content {
+  flex: 1; /* Allow the content to take up remaining space */
 }
 
-/* Style for selected buttons */
-.selected-button {
-  background-color: black;
-  color: white;
+/* Default style for buttons */
+h1{
+  text-align: center;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 80px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+  margin-top: 0px;
 }
+
 button{
   background-color: white;
   color: black;
@@ -56,43 +61,57 @@ button{
   padding: 10px;
   width: 100px;
   height: fit-content;
+  margin-bottom: 40px;
 }
 
 .gold-label{
-  background-color: rgb(209, 168, 35);
+  background-color: rgb(221, 180, 42);
   color: white;
   width: fit-content;
   border-radius: 10px;
   padding: 10px;
   margin-right: 20px;
+
 }
 .big-letter {
   font-size: 2em;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   margin-right: 10px;
 }
 .row1 {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items:flex-start;
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: flex-start; /* Align to the left */
+
 }
 
 .wait {
   border-radius: 10px;
   padding: 10px;
+  font-weight: bold;
   display: flex;
-  flex-direction: row;
   justify-content: flex-end;
-  align-items: center;
-  color: green;
+  align-items: flex-start;
+  color: rgb(33, 180, 33);
+  width: 100%;
+
+}
+.wait p{
+  font-size: 25px;
+  color: rgb(33, 180, 33);
+
+}
+
+.mins{
+  font-size: 16px;
 }
 
 .info{
   display:flex;
   color: black;
-  margin-bottom: 0;
 }
 .row-2{
   display: flex;
@@ -100,8 +119,12 @@ button{
 .ontime{
   color: green;
 }
+.heading{
+  text-align: center;
+}
 .delayed{
   color: red;
+  font-size: 20px;
 }
 h3{
   color: black;
@@ -111,18 +134,27 @@ h3{
   align-items: flex-start;
   width: 100%
 }
-.navbar{
-  flex: 1;
+p{
+  font-size: 15px;
+
+}
+
+.navbar-container{
   margin-right: 40px;
-  background-color: #282c34;
+  margin-left: 0px;
+  background-color: #262527;
   color: white;
-  margin-left: 20px;
   margin-bottom: 20px;
-  height: 100vh;
+  width: 350px;
+  margin-top: 90px;
+  max-height: max-content;
+  position: relative;
+
 
 }
 .linespage{
   flex: 2;
+  display: flex; /* Use flexbox to arrange elements horizontally */
   padding: 10px;
   height: 100vh; /* Set the height to 100% of the viewport height */
   overflow:scroll;
@@ -133,7 +165,6 @@ h3{
   padding: 0;
 
 }
-
 
 .navbar li {
   position: relative;
@@ -153,15 +184,30 @@ h3{
 
 }
 
-
+.train1 {
+  display: flex;
+  align-items: center; /* Center vertically */
+  justify-content: flex-start; /* Align to the left */
+}
 .train {
   display: flex;
-  justify-content: space-between;
-  align-items: left;
+  font-weight: bold;
+  flex-direction: row;
+  align-items: flex-start; /* Align the content to the top */
+  margin-bottom: 0px; 
 }
+
+.row1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start; /* Align to the left */
+
+}
+
 .gold-ontime {
   display: flex;
   flex-direction: row;
-  align-items:flex-start;
+  align-items: center;
   margin-right: 10px;
 }
