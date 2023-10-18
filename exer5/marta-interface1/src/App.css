@@ -37,13 +37,11 @@
   }
 
 }
-/* App.css or your custom CSS file */
 
 .content {
-  flex: 1; /* Allow the content to take up remaining space */
+  flex: 1; 
 }
 
-/* Default style for buttons */
 h1{
   text-align: center;
   font-family: 'Bebas Neue', sans-serif;
@@ -86,7 +84,7 @@ width: 100%;
 display: flex;
 flex-direction: column;
 align-items: flex-start;
-justify-content: flex-start; /* Align to the left */
+justify-content: flex-start; 
 
 }
 
@@ -164,14 +162,14 @@ p{
 }
 .linespage{
   flex: 2;
-  display: flex; /* Use flexbox to arrange elements horizontally */
+  display: flex; 
   padding: 10px;
-  height: 100%; /* Set the height to 100% of the viewport height */
+  height: 100%; 
 
 }
 
 .navbar ul {
-  list-style: none; /* Remove bullet points */
+  list-style: none; 
   padding: 20px;
 
 }
@@ -198,15 +196,15 @@ p{
 
 .train1 {
   display: flex;
-  align-items: flex-start; /* Center vertically */
-  justify-content: flex-start; /* Align to the left */
+  align-items: flex-start; 
+  justify-content: flex-start; 
 }
 .train {
   display: flex;
   font-weight: bold;
   flex-direction: row;
-  justify-content: flex-start; /* Align to the left */
-  align-items: center; /* Align the content to the top */
+  justify-content: flex-start; 
+  align-items: center; 
   margin-bottom: 0px; 
 }
 
@@ -214,7 +212,7 @@ p{
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: flex-start; /* Align to the left */
+  justify-content: flex-start; 
 
 }
 
