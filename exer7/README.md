@@ -24,15 +24,17 @@ In `Homescreen.js` you can create a simple MARTA homescreen page up to your own 
 In `About.js`, you will create a simple page that displays the MARTA map and some basic information about the MARTA's purpose on the page. This page will link to the homescreen page.
 
 ### Routing
-Install React Router by entering `npm install react-router-dom` in terminal. At the top of each page import router by doing `import { Route, Routes } from 'react-router-dom';`. Now, you can set up routes in the return of your display pages by doing
+Install React Router by entering `npm install react-router-dom` in terminal. At the top of each page import router by doing `import { BrowserRouter, Route, Routes } from 'react-router-dom';`. Now, you can set up routes in the return of your display pages by doing
 
 ```
 return (
-    <Routes>
-      <Route path={PATH1} element={<COMPONENT1 />} />
-      <Route path={PATH2} element={<COMPONENT2 />} />
-      <Route path={PATH3} element={<COMPONENT3 />} />
-    </Routes>
+    <BrowserRouter>
+        <Routes>
+          <Route path={PATH1} element={<COMPONENT1 />} />
+          <Route path={PATH2} element={<COMPONENT2 />} />
+          <Route path={PATH3} element={<COMPONENT3 />} />
+        </Routes>
+    </BrowserRouter>
   );
 ```
 
