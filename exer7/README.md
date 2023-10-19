@@ -30,9 +30,9 @@ Install React Router by entering `npm install react-router-dom` in terminal. At 
 return (
     <BrowserRouter>
         <Routes>
-          <Route path={PATH1} Component={COMPONENT1} />
-          <Route path={PATH2} Component={COMPONENT2} />
-          <Route path={PATH3} Component={COMPONENT3} />
+          <Route path={PATH1} element={<COMPONENT1 />} />
+          <Route path={PATH2} element={<COMPONENT2 />} />
+          <Route path={PATH3} element={<COMPONENT3 />} />
         </Routes>
     </BrowserRouter>
   );
