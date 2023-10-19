@@ -54,8 +54,6 @@ As a bonus, once the rest of the code displays successfully, we recommend incorp
 
 ## Display Example
 
-**Figma:** https://www.figma.com/file/e6VAnPHOVU000eGrz9pHhz/MartaInterface?type=design&node-id=0%3A1&mode=design&t=oYLSLRDwGyPBgwnD-1
-
 **Gold**
 
 <img width="500" alt="Screenshot 2023-10-16 at 10 08 13 PM" src="https://github.com/zinichakraborty/bootcampexercises-f23/assets/113480497/ab39f0c9-83d8-4232-90da-d026aca7ef7e">
