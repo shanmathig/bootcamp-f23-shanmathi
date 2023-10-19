@@ -21,7 +21,7 @@ Now that we are set up, we want to add two new pages! We will call these `Home.j
 
 In `Home.js` you can create a simple MARTA homescreen page up to your own design or following the Figma Page below that will have a form of a navbar that takes you to the `LinesPage.js` for each line with the display for `LinesPage.js` being the line that was clicked on in the navbar. There will also be a link to an about page at the top right of the homescreen.
 
-In `About.js`, you will create a simple page that displays the MARTA map and some basic information about the MARTA's purpose on the page. This page will link to the homescreen page.
+In `About.js`, you will create a simple page that displays the MARTA map and some basic information about the MARTA's purpose on the page. This page will include a button somewhere linking back to the home page.
 
 ### Routing
 Install React Router by entering `npm install react-router-dom` in terminal. At the top of each page import router by doing `import { BrowserRouter, Route, Routes } from 'react-router-dom';`. Now, you can set up routes in the return of your display pages by doing
