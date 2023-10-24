@@ -1,0 +1,248 @@
+.App {
+  text-align: center;
+}
+
+.bigM {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 34px; /* Adjust the size as needed */
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.linespages {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-top: 3px solid #454545;
+}
+
+.heading {
+  text-align: center;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 86px;
+  font-weight: bolder;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.select {
+  color: #bdb2b1;
+  text-align: left;
+  padding-top: 10px;
+  margin-left: 20px;
+  margin-right: 60px;
+  margin-bottom: 0px;
+  font-weight: normal;
+  font-size: 22px;
+}
+
+.navbar {
+  background-color: #231F20;
+  color: white;
+  width: 28%;
+  max-height: 100vh;
+  overflow-y: auto;
+}
+
+.navBarElement {
+  text-align: left;
+  font-size: 22px;
+  border-bottom: white 1px solid;
+  padding: 20px;
+  margin-left: 10px;
+  margin-right: 60px;
+}
+
+.highlight {
+  text-align: left;
+  border-bottom: rgb(89, 180, 208) 1px solid;
+  padding: 20px;
+  margin-left: 10px;
+  margin-right: 60px;
+  font-weight: bolder;
+  font-size: 20px;
+  color: rgb(89, 180, 208);
+}
+
+.main {
+  width: 68%;
+  max-height: 100vh;
+  overflow-y: auto;
+
+}
+
+.train {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px black solid;
+  justify-content: space-between;
+  padding-left: 0px;
+  padding-right: 20px;
+}
+
+.leftContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo {
+  align-self: center;
+  margin-right: 10px;
+}
+
+.left {
+  display: flex;
+  flex-direction: row;
+}
+
+.top {
+  display: flex;
+  flex-direction: row;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: row;  
+  margin-top: -30px;
+}
+
+.top-bottom {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.station {
+  font-size: 25px;
+}
+
+.destination {
+  font-size: 25px;
+}
+
+.lineColor {
+  align-self: center;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  padding-left: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 25px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.onTime {
+  color: #3DB651;
+  font-weight: bold;
+}
+
+.delayed {
+  color: red;
+  font-weight: bold;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content:center;
+}
+
+.buttonInactive {
+  font-size: 20px;
+  border-color: gray;
+  background-color: white;
+  padding-left: 50px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 50px;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-top: 30px;
+}
+
+.buttonActive {
+  font-size: 20px;
+  border-color: gray;
+  color: white;
+  background-color: black;
+  padding-left: 50px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 50px;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-top: 30px;
+}
+
+.rightContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.waitTime {
+  color: #3DB651;
+  align-self: center  ;
+}
+
+.wait {
+  margin-bottom: 0px;
+  align-self: center;
+}
+
+.min {
+  margin-top: 0px;
+  font-weight: bold;
+  align-self: center;
+}
+
+.colorButtonContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  padding-bottom: 15px;
+  margin-right: 5px;
+  margin-left: 5px;
+  gap: 40px;
+}
+
+.colorButton {
+  align-self: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 22px;
+  color: white;
+  font-weight: bold;
+  padding-left: 50px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 50px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.loadingScreen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+
+h2 {
+  font-size: 40px;
+  align-self: center;
+}
+
+.error {
+  font-size: 30px;
+  margin-top: 20px;
+  align-content: center;
+}
