@@ -41,26 +41,28 @@ GET /evolve/:name
 GET /experience/:name?level={level_num}
 ```
 - calculates and returns the experience a Pokemon has based on its name and level.
-- level is passed into the the request as a **query** parameter
+- level is passed into the request as a **query** parameter
 - See [Bulbapedia](https://bulbapedia.bulbagarden.net/wiki/Experience) for info on growth rates and experience 
 
 ### TIPS
 You can look at `hello.js` for a baseline for how to call and return from an endpoint.
 
-Remember to set your status codes before returning: Inside your try/catch, if the data has succesfully returned then set the code to `200`, if the data is invalid set it to `400`, and otherwise set the code to `500`.
+Remember to set your status codes before returning: Inside your try/catch, if the data has successfully returned then set the code to `200`, if the data is invalid set it to `400`, and otherwise set the code to `500`.
 
-Use `fetch` to call the pokemon API and make sure to have two awaits within the async call: one for fetching from the url, and another for converting the response to a JSON.
+Use `fetch` to call the Pokemon API and make sure to have two awaits within the async call: one for fetching from the URL, and another for converting the response to a JSON.
 
-To see your responses, use browser or Postman, for example, `http://localhost:3000/api/pokemon/ditto` to get the pokemon information for ditto.
+For the calls where we need to incorporate dynamic routing, the file should be titled with brackets, so that Next knows that it is a dynamic route.
 
-You will end up having to do multiple calls to the pokeapi for some of the GET requests.
+To see your responses, use the browser or Postman, for example, `http://localhost:3000/api/pokemon/ditto` to get the Pokemon information for ditto.
+
+You will end up having to make multiple calls to the PokeAPI for some of the GET requests.
 
 **Requirements:**
 - Create a Next App
 - Only create folders/files within the api folder
 - Complete all four endpoints and incorporate dynamic routing where needed
 - Format the endpoints to account for invalid data or other issues with a try/catch and different return status codes
-- Create a short video, maybe 0.5-1 minutes, showing that all your calls work through browser or Postman and link it at the top of your ReadMe.
+- Create a short video, maybe 0.5-1 minutes, showing that all your calls work through the browser or Postman and link it at the top of your ReadMe.
 
 ## Example Return for /pokemon/ditto
 
