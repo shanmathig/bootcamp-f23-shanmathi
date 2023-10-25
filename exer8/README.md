@@ -63,3 +63,5 @@ You will end up having to do multiple calls to the pokeapi for some of the GET r
 - Create a short video, maybe 0.5-1 minutes, showing that all your calls work through browser or Postman and link it at the top of your ReadMe.
 
 ## Example Return for /pokemon/ditto
+
+<img width="1196" alt="Screenshot 2023-10-25 at 3 58 05 PM" src="https://github.com/BoG-Dev-Bootcamp-F23/bootcamp-f23/assets/113480497/500f7635-65b1-4a84-815f-f3de1d283d61">
