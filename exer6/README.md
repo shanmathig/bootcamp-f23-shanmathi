@@ -1,4 +1,5 @@
 # Exercise 6 - Advanced Marta Interface
+https://youtu.be/4UtPGrd37zY?si=LIpsjFzO31hSJSoT
 
 ## Description
 In this exercise, bootcampers will familiarize themselves with state management and hooks.

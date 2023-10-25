@@ -1,0 +1,64 @@
+.row1 h1{
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 86px;
+    font-weight: bolder;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    margin-left: 50px;
+}
+.row1 {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    border-bottom: 3px solid #454545;
+    justify-content: space-between;
+}
+.row1 button{
+    margin-right: 50px;
+    align-self: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+    padding-left: 50px;
+    background-color: black;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 50px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.row2{
+    display: flex;
+    align-items: center;
+}
+.marta-logo{
+    display: flex;
+  align-items: center;
+  justify-content:flex-start;
+}
+.route{
+    padding: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-top: 10px; 
+}
+.routes {
+    flex: 0.6; 
+    padding: 10px; 
+  }
+
+.martahome{
+    flex: 1
+}
+.view{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 42px;
+    font-weight: 100;
+}
+
+  
