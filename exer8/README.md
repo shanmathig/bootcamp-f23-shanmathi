@@ -1,4 +1,4 @@
-# Exercise 8 - POKE API
+# Exercise 8 - Poké API
 
 ## Description
 In this exercise, bootcampers will familiarize themselves with Next.js, API Endpoints, and Dynamic Routing.
@@ -44,7 +44,7 @@ GET /experience/:name?level={level_num}
 - level is passed into the request as a **query** parameter
 - See [Bulbapedia](https://bulbapedia.bulbagarden.net/wiki/Experience) for info on growth rates and experience 
 
-### TIPS
+### Tips
 You can look at `hello.js` for a baseline for how to call and return from an endpoint.
 
 Remember to set your status codes before returning: Inside your try/catch, if the data has successfully returned then set the code to `200`, if the data is invalid set it to `400`, and otherwise set the code to `500`.
