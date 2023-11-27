@@ -8,3 +8,4 @@ export default function handler(req, res) {
 // update user - PATCH /api/users/:id
 // delete user - DELETE /api/users/:id
 // read user(s) - GET /api/users, GET /api/users/:id
+
